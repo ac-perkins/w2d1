@@ -5,8 +5,9 @@
     <meta name="description" content="BUY MY SHIRTS">
     <meta name="author" content="Alex Perkins">
     <title>T-shirt shop</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-percentages.css">
 
   </head>
   <body>
@@ -17,9 +18,9 @@
             <img class="shirt-png" src="http://i.imgur.com/nPNn0Us.png" />
           </div>
           <div class="back" id="back_left">
-            <img class="shirt-png" src="http://i.imgur.com/iskETJ7.png" />
+            <!-- <img class="shirt-png" src="http://i.imgur.com/iskETJ7.png" /> -->
           </div>
-          <div class="shirt-rotate" id="toggle-left"><i class="fa fa-undo fa-lg"></i></div>
+          <div class="shirt-rotate" id="toggle-left"><i width="100%" class="fa fa-undo fa-lg"></i></div>
         </div>
 
         <nav>
@@ -27,7 +28,65 @@
           <ul>
           <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
           <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
-          <li class="inner-box" id="size-left"><h2>XL</h2></li>
+          <li class="inner-box" id="size-left"><h2>XL</h2>
+
+            <ul>
+              <li class="large-popup-box">
+                <ul>
+                  <li class="size-triangle-popup"></li>
+                  <li class="size-curtain"></li>
+                  <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+                </ul>
+              </li>
+            </ul>
+
+          </li>
+
+          <li class="inner-box" id="color-left">
+            <ul>
+            <div class="blue-block"></div>
+
+          <li class="small-popup-box">
+            <ul>
+            <li class="color-triangle-popup"></li>
+            <li class="color-curtain"></li>
+            <li class="blue-popup-box"></li>
+            <li class="pink-popup-box"></li>
+            <li class="orange-popup-box"></li>
+            <li class="green-popup-box"></li>
+          </ul>
+          </li>
+        </ul>
+        </li>
+        <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
+          </ul>
+      </nav>
+      <footer>
+        <p>Save my trees</p><p class="price">$29</p>
+      </footer>
+      </article>
+      <article>
+        <div class="shirt-image" id="shirt2">
+          <div class="front" id="front_middle">
+            <img class="shirt-png" src="http://i.imgur.com/pp0COGP.png" />
+          </div>
+          <div class="back" id="back_middle">
+            <!-- <img class="shirt-png" src="http://i.imgur.com/eCd87XR.png" /> -->
+          </div>
+          <div class="shirt-rotate" id="toggle-middle"><i class="fa fa-undo fa-lg"></i></div>
+        </div>
+
+        <nav>
+
+        <ul>
+        <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
+        <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
+        <li class="inner-box"  id="size-middle"><h2>XL</h2>
+
+        <ul>
           <li class="large-popup-box">
             <ul>
               <li class="size-triangle-popup"></li>
@@ -38,55 +97,177 @@
               <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
             </ul>
           </li>
-          <li class="inner-box" id="color-left">
-            <div class="blue-block"></div>
+        </ul>
+
+      </li>
+        <li class="inner-box" id="color-middle">
+          <ul>
+          <div class="pink-block"></div>
+
+        <li class="small-popup-box">
+          <ul>
+          <li class="color-triangle-popup"></li>
+          <li class="color-curtain"></li>
+          <li class="blue-popup-box"></li>
+          <li class="pink-popup-box"></li>
+          <li class="orange-popup-box"></li>
+          <li class="green-popup-box"></li>
+        </ul>
+        </li>
+      </ul>
+      </li>
+        <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
+      </ul>
+        </nav>
+        <footer>
+          <p>Nature Lover</p><p class="price">$19</p>
+        </footer>
+      </article>
+      <article>
+        <div class="shirt-image" id="shirt3">
+          <div class="front" id="front_right">
+            <img class="shirt-png" src="http://i.imgur.com/4tZdzGj.png" />
+          </div>
+          <div class="back" id="back_right">
+            <!-- <img class="shirt-png" src="http://i.imgur.com/FyyLnOg.png" /> -->
+          </div>
+          <div class="shirt-rotate" id="toggle-right"><i class="fa fa-undo fa-lg"></i></div>
+        </div>
+
+        <nav>
+
+        <ul>
+        <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
+        <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
+        <li class="inner-box"  id="size-right"><h2>XL</h2>
+          <ul>
+            <li class="large-popup-box">
+              <ul>
+                <li class="size-triangle-popup"></li>
+                <li class="size-curtain"></li>
+                <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+              </ul>
+            </li>
+          </ul>
+      </li>
+        <li class="inner-box" id="color-right">
+          <ul>
+          <div class="orange-block"></div>
+
+        <li class="small-popup-box">
+          <ul>
+          <li class="color-triangle-popup"></li>
+          <li class="color-curtain"></li>
+          <li class="blue-popup-box"></li>
+          <li class="pink-popup-box"></li>
+          <li class="orange-popup-box"></li>
+          <li class="green-popup-box"></li>
+        </ul>
+        </li>
+      </ul>
+      </li>
+        <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
+      </ul>
+        </nav>
+        <footer>
+        <p>Forrest Walk</p><p class="price">$39</p>
+        </footer>
+      </article>
+      <article>
+        <div class="shirt-image" id="shirt1">
+          <div class="front" id="front_left">
+            <img class="shirt-png" src="http://i.imgur.com/nPNn0Us.png" />
+          </div>
+          <div class="back" id="back_left">
+            <!-- <img class="shirt-png" src="http://i.imgur.com/iskETJ7.png" /> -->
+          </div>
+          <div class="shirt-rotate" id="toggle-left"><i width="100%" class="fa fa-undo fa-lg"></i></div>
+        </div>
+
+        <nav>
+
+          <ul>
+          <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
+          <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
+          <li class="inner-box" id="size-left"><h2>XL</h2>
+
+            <ul>
+              <li class="large-popup-box">
+                <ul>
+                  <li class="size-triangle-popup"></li>
+                  <li class="size-curtain"></li>
+                  <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+                </ul>
+              </li>
+            </ul>
+
           </li>
+
+          <li class="inner-box" id="color-left">
+            <ul>
+            <div class="blue-block"></div>
+
           <li class="small-popup-box">
             <ul>
-              <li class="color-triangle-popup"></li>
-              <li class="color-curtain"></li>
-              <li class="blue-popup-box"></li>
-              <li class="pink-popup-box"></li>
-              <li class="orange-popup-box"></li>
-              <li class="green-popup-box"></li>
+            <li class="color-triangle-popup"></li>
+            <li class="color-curtain"></li>
+            <li class="blue-popup-box"></li>
+            <li class="pink-popup-box"></li>
+            <li class="orange-popup-box"></li>
+            <li class="green-popup-box"></li>
+          </ul>
+          </li>
+        </ul>
+        </li>
+        <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
+          </ul>
+      </nav>
+      <footer>
+        <p>Save my trees</p><p class="price">$29</p>
+      </footer>
+      </article>
+      <article>
+        <div class="shirt-image" id="shirt2">
+          <div class="front" id="front_middle">
+            <img class="shirt-png" src="http://i.imgur.com/pp0COGP.png" />
+          </div>
+          <div class="back" id="back_middle">
+            <!-- <img class="shirt-png" src="http://i.imgur.com/eCd87XR.png" /> -->
+          </div>
+          <div class="shirt-rotate" id="toggle-middle"><i class="fa fa-undo fa-lg"></i></div>
+        </div>
+
+        <nav>
+
+        <ul>
+        <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
+        <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
+        <li class="inner-box"  id="size-middle"><h2>XL</h2>
+
+        <ul>
+          <li class="large-popup-box">
+            <ul>
+              <li class="size-triangle-popup"></li>
+              <li class="size-curtain"></li>
+              <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
+              <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
+              <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
+              <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
             </ul>
-        </li>
-        <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
-          </ul>
-      </nav>
-
-        <p>Save my trees</p><p class="price">$29</p>
-      </article>
-      <article>
-        <div class="shirt-image" id="shirt2">
-          <div class="front" id="front_middle">
-            <img class="shirt-png" src="http://i.imgur.com/pp0COGP.png" />
-          </div>
-          <div class="back" id="back_middle">
-            <img class="shirt-png" src="http://i.imgur.com/eCd87XR.png" />
-          </div>
-          <div class="shirt-rotate" id="toggle-middle"><i class="fa fa-undo fa-lg"></i></div>
-        </div>
-
-        <nav>
-
-        <ul>
-        <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
-        <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
-        <li class="inner-box"  id="size-middle"><h2>XL</h2></li>
-        <li class="large-popup-box">
-          <ul>
-          <li class="size-triangle-popup"></li>
-          <li class="size-curtain"></li>
-          <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+          </li>
         </ul>
+
       </li>
         <li class="inner-box" id="color-middle">
+          <ul>
           <div class="pink-block"></div>
-        </li>
+
         <li class="small-popup-box">
           <ul>
           <li class="color-triangle-popup"></li>
@@ -97,11 +278,14 @@
           <li class="green-popup-box"></li>
         </ul>
         </li>
+      </ul>
+      </li>
         <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
       </ul>
         </nav>
-
-        <p>Nature Lover</p><p class="price">$19</p>
+        <footer>
+          <p>Nature Lover</p><p class="price">$19</p>
+        </footer>
       </article>
       <article>
         <div class="shirt-image" id="shirt3">
@@ -109,7 +293,7 @@
             <img class="shirt-png" src="http://i.imgur.com/4tZdzGj.png" />
           </div>
           <div class="back" id="back_right">
-            <img class="shirt-png" src="http://i.imgur.com/FyyLnOg.png" />
+            <!-- <img class="shirt-png" src="http://i.imgur.com/FyyLnOg.png" /> -->
           </div>
           <div class="shirt-rotate" id="toggle-right"><i class="fa fa-undo fa-lg"></i></div>
         </div>
@@ -119,20 +303,24 @@
         <ul>
         <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
         <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
-        <li class="inner-box"  id="size-right"><h2>XL</h2></li>
-        <li class="large-popup-box">
+        <li class="inner-box"  id="size-right"><h2>XL</h2>
           <ul>
-          <li class="size-triangle-popup"></li>
-          <li class="size-curtain"></li>
-          <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
-        </ul>
+            <li class="large-popup-box">
+              <ul>
+                <li class="size-triangle-popup"></li>
+                <li class="size-curtain"></li>
+                <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+              </ul>
+            </li>
+          </ul>
       </li>
         <li class="inner-box" id="color-right">
+          <ul>
           <div class="orange-block"></div>
-        </li>
+
         <li class="small-popup-box">
           <ul>
           <li class="color-triangle-popup"></li>
@@ -143,45 +331,53 @@
           <li class="green-popup-box"></li>
         </ul>
         </li>
+      </ul>
+      </li>
         <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
       </ul>
         </nav>
-
+        <footer>
         <p>Forrest Walk</p><p class="price">$39</p>
-
-      </article>
-      <article>
+        </footer>
+      </article><article>
         <div class="shirt-image" id="shirt1">
           <div class="front" id="front_left">
             <img class="shirt-png" src="http://i.imgur.com/nPNn0Us.png" />
           </div>
           <div class="back" id="back_left">
-            <img class="shirt-png" src="http://i.imgur.com/iskETJ7.png" />
+            <!-- <img class="shirt-png" src="http://i.imgur.com/iskETJ7.png" /> -->
           </div>
-          <div class="shirt-rotate" id="toggle-left"><i class="fa fa-undo fa-lg"></i></div>
+          <div class="shirt-rotate" id="toggle-left"><i width="100%" class="fa fa-undo fa-lg"></i></div>
         </div>
 
         <nav>
 
           <ul>
-        <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
-        <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
-        <li class="inner-box" id="size-left"><h2>XL</h2></li>
-        <li class="large-popup-box">
-          <ul>
-          <li class="size-triangle-popup"></li>
-          <li class="size-curtain"></li>
-          <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
-        </ul>
-        </li>
-        <li class="inner-box" id="color-left">
-          <div class="blue-block"></div>
-        </div>
-        <li class="small-popup-box">
-          <ul>
+          <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
+          <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
+          <li class="inner-box" id="size-left"><h2>XL</h2>
+
+            <ul>
+              <li class="large-popup-box">
+                <ul>
+                  <li class="size-triangle-popup"></li>
+                  <li class="size-curtain"></li>
+                  <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
+                  <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+                </ul>
+              </li>
+            </ul>
+
+          </li>
+
+          <li class="inner-box" id="color-left">
+            <ul>
+            <div class="blue-block"></div>
+
+          <li class="small-popup-box">
+            <ul>
             <li class="color-triangle-popup"></li>
             <li class="color-curtain"></li>
             <li class="blue-popup-box"></li>
@@ -189,12 +385,15 @@
             <li class="orange-popup-box"></li>
             <li class="green-popup-box"></li>
           </ul>
+          </li>
+        </ul>
         </li>
-        <div class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></div>
+        <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
           </ul>
       </nav>
-
+      <footer>
         <p>Save my trees</p><p class="price">$29</p>
+      </footer>
       </article>
       <article>
         <div class="shirt-image" id="shirt2">
@@ -202,7 +401,7 @@
             <img class="shirt-png" src="http://i.imgur.com/pp0COGP.png" />
           </div>
           <div class="back" id="back_middle">
-            <img class="shirt-png" src="http://i.imgur.com/eCd87XR.png" />
+            <!-- <img class="shirt-png" src="http://i.imgur.com/eCd87XR.png" /> -->
           </div>
           <div class="shirt-rotate" id="toggle-middle"><i class="fa fa-undo fa-lg"></i></div>
         </div>
@@ -212,35 +411,44 @@
         <ul>
         <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
         <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
-        <li class="inner-box"  id="size-middle"><h2>XL</h2></li>
-        <li class="large-popup-box">
-          <ul>
-          <li class="size-triangle-popup"></li>
-          <li class="size-curtain"></li>
-          <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+        <li class="inner-box"  id="size-middle"><h2>XL</h2>
+
+        <ul>
+          <li class="large-popup-box">
+            <ul>
+              <li class="size-triangle-popup"></li>
+              <li class="size-curtain"></li>
+              <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
+              <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
+              <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
+              <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+            </ul>
+          </li>
         </ul>
+
       </li>
         <li class="inner-box" id="color-middle">
+          <ul>
           <div class="pink-block"></div>
-        </li>
+
         <li class="small-popup-box">
           <ul>
-            <li class="color-triangle-popup"></li>
-            <li class="color-curtain"></li>
-            <li class="blue-popup-box"></li>
-            <li class="pink-popup-box"></li>
-            <li class="orange-popup-box"></li>
-            <li class="green-popup-box"></li>
-          </ul>
+          <li class="color-triangle-popup"></li>
+          <li class="color-curtain"></li>
+          <li class="blue-popup-box"></li>
+          <li class="pink-popup-box"></li>
+          <li class="orange-popup-box"></li>
+          <li class="green-popup-box"></li>
+        </ul>
         </li>
+      </ul>
+      </li>
         <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
       </ul>
         </nav>
-
-        <p>Nature Lover</p><p class="price">$19</p>
+        <footer>
+          <p>Nature Lover</p><p class="price">$19</p>
+        </footer>
       </article>
       <article>
         <div class="shirt-image" id="shirt3">
@@ -248,7 +456,7 @@
             <img class="shirt-png" src="http://i.imgur.com/4tZdzGj.png" />
           </div>
           <div class="back" id="back_right">
-            <img class="shirt-png" src="http://i.imgur.com/FyyLnOg.png" />
+            <!-- <img class="shirt-png" src="http://i.imgur.com/FyyLnOg.png" /> -->
           </div>
           <div class="shirt-rotate" id="toggle-right"><i class="fa fa-undo fa-lg"></i></div>
         </div>
@@ -258,113 +466,24 @@
         <ul>
         <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
         <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
-        <li class="inner-box"  id="size-right"><h2>XL</h2></li>
-        <li class="large-popup-box">
+        <li class="inner-box"  id="size-right"><h2>XL</h2>
           <ul>
-            <li class="size-triangle-popup"></li>
-            <li class="size-curtain"></li>
-            <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
-            <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
-            <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
-            <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+            <li class="large-popup-box">
+              <ul>
+                <li class="size-triangle-popup"></li>
+                <li class="size-curtain"></li>
+                <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
+                <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li class="inner-box" id="color-right">
-          <div class="orange-block"></div>
-        </li>
-        <li class="small-popup-box">
-          <ul>
-            <li class="color-triangle-popup"></li>
-            <li class="color-curtain"></li>
-            <li class="blue-popup-box"></li>
-            <li class="pink-popup-box"></li>
-            <li class="orange-popup-box"></li>
-            <li class="green-popup-box"></li>
-          </ul>
-        </li>
-        <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
-      </ul>
-        </nav>
-
-        <p>Forrest Walk</p><p class="price">$39</p>
-
-      </article>
-      <article>
-        <div class="shirt-image" id="shirt1">
-          <div class="front" id="front_left">
-            <img class="shirt-png" src="http://i.imgur.com/nPNn0Us.png" />
-          </div>
-          <div class="back" id="back_left">
-            <img class="shirt-png" src="http://i.imgur.com/iskETJ7.png" />
-          </div>
-          <div class="shirt-rotate" id="toggle-left"><i class="fa fa-undo fa-lg"></i></div>
-        </div>
-
-        <nav>
-
-          <ul>
-        <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
-        <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
-        <li class="inner-box" id="size-left"><h2>XL</h2></li>
-        <li class="large-popup-box">
-          <ul>
-          <li class="size-triangle-popup"></li>
-          <li class="size-curtain"></li>
-          <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
-        </ul>
-        </li>
-        <li class="inner-box" id="color-left">
-          <div class="blue-block"></div>
-        </li>
-        <li class="small-popup-box">
-          <ul>
-          <li class="color-triangle-popup"></li>
-          <li class="color-curtain"></li>
-          <li class="blue-popup-box"></li>
-          <li class="pink-popup-box"></li>
-          <li class="orange-popup-box"></li>
-          <li class="green-popup-box"></li>
-        </ul>
-        </li>
-        <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
-          </ul>
-      </nav>
-
-        <p>Save my trees</p><p class="price">$29</p>
-      </article>
-      <article>
-        <div class="shirt-image" id="shirt2">
-          <div class="front" id="front_middle">
-            <img class="shirt-png" src="http://i.imgur.com/pp0COGP.png" />
-          </div>
-          <div class="back" id="back_middle">
-            <img class="shirt-png" src="http://i.imgur.com/eCd87XR.png" />
-          </div>
-          <div class="shirt-rotate" id="toggle-middle"><i class="fa fa-undo fa-lg"></i></div>
-        </div>
-
-        <nav>
-
-        <ul>
-        <li class="first-inner-box"><i class="fa fa-refresh fa-2x"></i></li>
-        <li class="inner-box"><i class="fa fa-heart-o fa-2x"></i></li>
-        <li class="inner-box"  id="size-middle"><h2>XL</h2></li>
-        <li class="large-popup-box">
-          <ul>
-          <li class="size-triangle-popup"></li>
-          <li class="size-curtain"></li>
-          <li class="shirt-sizes"><i class="fa fa-users fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-secret fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user-plus fa-2x"></i></li>
-          <li class="shirt-sizes"><i class="fa fa-user fa-2x"></i></li>
-        </ul>
       </li>
-        <li class="inner-box" id="color-middle">
-          <div class="pink-block"></div>
-        </li>
+        <li class="inner-box" id="color-right">
+          <ul>
+          <div class="orange-block"></div>
+
         <li class="small-popup-box">
           <ul>
           <li class="color-triangle-popup"></li>
@@ -375,11 +494,14 @@
           <li class="green-popup-box"></li>
         </ul>
         </li>
+      </ul>
+      </li>
         <li class="inner-box"><i class="fa fa-shopping-cart fa-2x"></i></li>
       </ul>
         </nav>
-
-        <p>Nature Lover</p><p class="price">$19</p>
+        <footer>
+        <p>Forrest Walk</p><p class="price">$39</p>
+        </footer>
       </article>
     </main>
 

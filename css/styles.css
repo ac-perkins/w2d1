@@ -35,8 +35,13 @@ article {
 @media screen and (max-width: 860px) {
   article {
     margin: 10px 0px;
-    /*height: 200px;
-    width: 170px;*/
+    height: 200px;
+    width: 170px;
+  }
+
+  .shirt-image {
+    height: 116px;
+    width: 170px;
   }
 }
 
