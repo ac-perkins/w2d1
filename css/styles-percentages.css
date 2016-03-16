@@ -40,20 +40,13 @@ li {
   /*text-align: center;*/
 }
 
-ul {
-  /*text-align: center;*/
-}
-
 footer {
   width: 100%;
 }
 
 .shirt-image {
-  /*position: relative;*/
   border: 3px solid #5BA3D6;
   box-sizing: border-box;
-  /*float: left;*/
-  /*height: 90%;*/
   width: 100%;
 }
 
@@ -62,7 +55,7 @@ footer {
   margin: 6%;
 }
 
-.shirt-rotate {
+.shirt-rotate-button {
   position: absolute;
   border-left: 3px solid #5BA3D6;
   border-bottom: 3px solid #5BA3D6;
@@ -78,44 +71,27 @@ footer {
   line-height: 35px;
 }
 
-.shirt-rotate:hover {
+.shirt-rotate-button:hover {
   background-color: #5BA3D6;
   color: #fff;
 }
 
-.inner-box {
+.nav-box {
   position: relative;
-  /*border-top: 3px solid #5BA3D6;*/
   border-right: 3px solid #5BA3D6;
   border-bottom: 3px solid #5BA3D6;
   float: left;
   box-sizing: border-box;
-  /*height: 20px;*/
   width: 20%;
   color: #5BA3D6;
   text-align: center;
-  /*line-height: 80px;*/
 }
 
-.first-inner-box {
-  border-right: 3px solid #5BA3D6;
+.nav-box:first-child {
   border-left: 3px solid #5BA3D6;
-  border-bottom: 3px solid #5BA3D6;
-  float: left;
-  box-sizing: border-box;
-  /*height: 68px;*/
-  width: 20%;
-  color: #5BA3D6;
-  text-align: center;
-  /*line-height: 80px;*/
 }
 
-.first-inner-box:hover {
-  background-color: #5BA3D6;
-  color: #fff;
-}
-
-.inner-box:hover {
+.nav-box:hover {
   background-color: #5BA3D6;
   color: #fff;
 }
@@ -147,7 +123,7 @@ footer {
   margin: 3px auto;
 }
 
-.large-popup-box {
+.size-popup-box {
   opacity: 0;
   color: #5BA3D6;
   background-color: #fff;
@@ -183,20 +159,19 @@ footer {
   z-index: -1;
 }*/
 
-#size-left:hover .large-popup-box {
-  opacity: 1;
-  /*top: 0*/
-  bottom: 100%;
-  transition: bottom 0.2s ease;
-}
-
-#size-middle:hover .large-popup-box {
+#size-left:hover .size-popup-box {
   opacity: 1;
   bottom: 100%;
   transition: bottom 0.2s ease;
 }
 
-#size-right:hover .large-popup-box {
+#size-middle:hover .size-popup-box {
+  opacity: 1;
+  bottom: 100%;
+  transition: bottom 0.2s ease;
+}
+
+#size-right:hover .size-popup-box {
   opacity: 1;
   bottom: 100%;
   transition: bottom 0.2s ease;
@@ -206,7 +181,7 @@ footer {
   margin: 7px 0px 5px;
 }
 
-.small-popup-box {
+.color-popup-box {
   opacity: 0;
   border: 3px solid #5BA3D6;
   background-color: #fff;
@@ -224,7 +199,6 @@ footer {
   width: 98%;
   position: absolute;
   top: 20%;
-  /*right: 5px;*/
   z-index: -1;
 }
 
@@ -239,13 +213,6 @@ footer {
   transform: rotate(45deg);
   z-index: -1;
 }
-
-/*.color-blocks {
-  display: inline-block;
-  height: 30px;
-  width: 30px;
-  margin: 4px;
-}*/
 
 .blue-popup-box {
   /*display: inline-block;*/
@@ -295,7 +262,7 @@ footer {
   float: left;
 }
 
-#color-left:hover .small-popup-box {
+#color-left:hover .color-popup-box {
   opacity: 1;
   bottom: 100%;
   transition: bottom 0.2s ease;
@@ -306,7 +273,7 @@ footer {
   /*margin: 17px auto;*/
 }
 
-#color-middle:hover .small-popup-box {
+#color-middle:hover .color-popup-box {
   opacity: 1;
   bottom: 100%;
   transition: bottom 0.2s ease;
@@ -317,7 +284,7 @@ footer {
   /*margin: 17px auto;*/
 }
 
-#color-right:hover .small-popup-box {
+#color-right:hover .color-popup-box {
   opacity: 1;
   bottom: 100%;
   transition: bottom 0.2s ease;
@@ -332,11 +299,6 @@ footer {
   float: right;
   font-weight: bold;
 }
-
-/*i {
-  width: 100%;
-  height: 50%;
-}*/
 
 .front {
   height: 100%;
@@ -358,10 +320,9 @@ footer {
   transition: all 0.5s ease-out;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 668px) and (max-width: 1024px) {
   article {
     /*background-color: red;*/
-    /*margin: 10px 5px;*/
     width: 30%;
     min-width: 210px;
   }
@@ -373,8 +334,6 @@ footer {
 @media screen and (max-width: 667px) {
   article {
     /*background-color: blue;*/
-    /*margin: 10px 6px;*/
-    /*height: 200px;*/
     width: 45%;
     min-width: 190px;
   }
